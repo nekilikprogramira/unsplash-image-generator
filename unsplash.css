@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image{
+    height: 900px;
+    width: 75%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Get-image-button{
+    border: none;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+}
+
+input{
+    padding: 10px 15px;
+    outline: none;
+}
+
+.slider{
+    position: absolute;
+    z-index: 5;
+    top: 450px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1890px;
+}
